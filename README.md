@@ -12,3 +12,6 @@
 - `$ export FLASK_APP=dashboard.py`
 - `$ export GITHUB_TOKEN=<your access token here>`
 - `$ flask run`
+
+## TODO:
+[] imporove performance of sorting by contributors.

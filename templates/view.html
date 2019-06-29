@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Hello from Flask</title>
+
+<h1>Sort by {{sort_by}}</h1>
+<ul>
+{% for repo in repos %}
+  <li>{{ repo.full_name|e }}</li>
+{% endfor %}
+</ul>
+
+<!-- {% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %} -->

@@ -1,0 +1,10 @@
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.org) }}
+    {{ render_field(form.sort_by) }}
+    {{ render_field(form.limit) }}
+    
+  </dl>
+  <p><input type=submit value=Confirm>
+</form>

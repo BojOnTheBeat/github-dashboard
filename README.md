@@ -14,4 +14,4 @@
 - `$ flask run`
 
 ## TODO:
-[] imporove performance of sorting by contributors.
+- [ ] imporove performance of sorting by contributors.
